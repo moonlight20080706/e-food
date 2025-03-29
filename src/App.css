@@ -12,19 +12,15 @@
 .div{
     overflow-x: hidden;
 }
-button:hover{
+button:hover, .burger:hover{
     transform: scale(1.1);
-    color: #FF7A50;
-    background-color: #fff;
-    border: 1px solid #FF7A50;
 }
-button{
+button, .burger{
     transition: 0.3s all;
 }
 body{
     background-color: #f1f8fc;
 }
-
 header{
     display: flex;
     align-items: center;
